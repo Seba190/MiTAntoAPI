@@ -45,7 +45,7 @@ def read_item(codigo: str):
                     'Actualizar usuario'    : df['Actualizar_usuario'][0] }
         
         except Exception as e:
-            return {'State': 1, 'Descripción': type(e).__name__}
+            return {'State': 1, 'Descripción': type(e).__name__, 'Intento': 1}
 
     #    except:
      #      return {'State': 1 , 'Descripción': 'Ruta no encontrada, pruebe con otra revisando la BBDD.'}
