@@ -28,5 +28,5 @@ SQLAlchemy==2.0.15
 starlette==0.22.0
 typing_extensions==4.4.0
 tzdata==2023.3
-uvicorn==0.21.2
+uvicorn==0.21.0
 Werkzeug==2.1.7
