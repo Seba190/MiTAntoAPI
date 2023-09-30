@@ -38,7 +38,7 @@ def read_item(codigo: str):
             return { 'State'                : 0,
                     'Descripción'           :"Consulta realizada exitosamente.",
                     'Fecha actual'          : datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-                    'Nombre'                : df['Nombre'][0][0],
+                    'Nombre'                : df['Nombre'][0],
                     'Creado'                : df['Creado'][0],
                     'Usuario creador'       : df['Usuario_creador'][0],
                     'Actualizado'           : df['Actualizado'][0],
