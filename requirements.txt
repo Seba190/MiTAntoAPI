@@ -11,7 +11,7 @@ idna
 itsdangerous
 Jinja2
 MarkupSafe
-mysql-connector-python
+mysql-connector-python==5.7.23
 mysqlclient
 numpy
 pandas
