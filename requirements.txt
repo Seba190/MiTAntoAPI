@@ -11,11 +11,11 @@ idna
 itsdangerous
 Jinja2
 MarkupSafe
-mysql-connector-python==5.7.23
+mysql-connector-python==8.0.33
 mysqlclient
 numpy
 pandas
-protobuf
+protobuf==3.11.0
 pydantic
 pydantic_core
 PyMySQL
