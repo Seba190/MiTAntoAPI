@@ -33,7 +33,7 @@ conexion = create_engine(cadena_conexion)
 def read_item(codigo: str):  
     while True:
         #try:
-            sql = "SELECT Nombre, Creado, Usuario_creador,Actualizado, Actualizar_usuario FROM clients_export__2_ WHERE Código = '%s'" % codigo.upper()
+            sql = "SELECT Nombre, Creado, Usuario_creador,Actualizado, Actualizar_usuario FROM clients_export WHERE Código = '%s'" % codigo.upper()
             df = pd.read_sql_query(sql, con = conexion)
             return { 'State'                : 0,
                     'Descripción'           :"Consulta realizada exitosamente.",
